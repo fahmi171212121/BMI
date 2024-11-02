@@ -14,7 +14,7 @@ public class BMI {
     private String kategori;
 
     public void hitungBMI(double berat, double tinggi) {
-        bmi = berat / (tinggi * tinggi); // Rumus BMI
+        bmi = berat / (tinggi * tinggi);
         kategori = tentukanKategori(bmi);
     }
 
